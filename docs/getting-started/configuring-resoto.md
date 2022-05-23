@@ -352,6 +352,24 @@ Once one or more cloud providers have been configured the `collect_and_cleanup` 
 > workflow run collect_and_cleanup
 ```
 
+## Configuring a Workflow Schedule
+
+By default Resoto collects all cloud providers once per hour. This setting can be changed in the `resoto.core` config using [standard cron syntax](https://en.wikipedia.org/wiki/Cron).
+
+```yml
+resotocore:
+[...]
+  # Workflow related properties.
+  workflows:
+    collect_and_cleanup:
+      # Cron expression as schedule for the workflow to run.
+      schedule: '0 * * * *'
+```
+
+```bash title="Example: configure the collect_and_cleanup workflow to run twice per hour"
+> config set resoto.core resotocore.workflows.collect_and_cleanup.schedule="0,30 * * * *"
+```
+
 ## Configuring Resoto Worker for Multi-Core Machines
 
 Resoto resource collection speed depends heavily on the number of CPU cores available to the worker. When collecting hundreds of accounts `resotoworker` can easily saturate 64 cores or more. The amount of RAM depends on the number of resources in each account. As a rule of thumb calculate with 512 MB of RAM and 0.5 CPU cores per account concurrently collected with a minimum of 4 cores and 16 GB for a production setup.
