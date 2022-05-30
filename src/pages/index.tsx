@@ -134,8 +134,8 @@ export default function Home(): JSX.Element {
             <blockquote className={styles.quotation}>
               <div>
                 <p>
-                  I built Resoto to &hellip; get a handle on the infrastructure
-                  at{' '}
+                  I built the first version of Resoto to get a handle on the
+                  infrastructure at{' '}
                   <a
                     href="https://d2iq.com"
                     target="_blank"
@@ -143,11 +143,13 @@ export default function Home(): JSX.Element {
                   >
                     D2iQ
                   </a>
-                  . We had over{' '}
-                  <strong>two hundred engineers spinning up resources</strong>{' '}
-                  however they wanted&mdash;but our small,{' '}
-                  <strong>three-person SRE team was responsible</strong> for all
-                  that usage.
+                  . We had around{' '}
+                  <strong>
+                    two hundred engineers able to spin up resources
+                  </strong>{' '}
+                  but only a small,{' '}
+                  <strong>three-person SRE team responsible</strong> for all
+                  cloud usage.
                 </p>
                 <footer>
                   <strong>Lukas Lösche</strong>, Co-Founder at{' '}
@@ -225,25 +227,25 @@ export default function Home(): JSX.Element {
                 </p>
               </li>
             </ul>
-            <blockquote className={styles.quotation}>
-              <div>
-                <p>
-                  Since deploying Resoto, our{' '}
-                  <strong>cloud bill dropped by over seventy percent</strong>
-                  &mdash;saving us millions every year.
-                </p>
-                <footer>
-                  <strong>Tobi Knaup</strong>, CEO at{' '}
-                  <a
-                    href="https://d2iq.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    D2iQ
-                  </a>
-                </footer>
-              </div>
-            </blockquote>
+            {/*<blockquote className={styles.quotation}>*/}
+            {/*  <div>*/}
+            {/*    <p>*/}
+            {/*      Since deploying Resoto, our{' '}*/}
+            {/*      <strong>cloud bill dropped by over seventy percent</strong>*/}
+            {/*      &mdash;saving us millions every year.*/}
+            {/*    </p>*/}
+            {/*    <footer>*/}
+            {/*      <strong>Tobi Knaup</strong>, CEO at{' '}*/}
+            {/*      <a*/}
+            {/*        href="https://d2iq.com"*/}
+            {/*        target="_blank"*/}
+            {/*        rel="noopener noreferrer"*/}
+            {/*      >*/}
+            {/*        D2iQ*/}
+            {/*      </a>*/}
+            {/*    </footer>*/}
+            {/*  </div>*/}
+            {/*</blockquote>*/}
           </div>
         </section>
         <section className={styles.section}>
@@ -315,26 +317,26 @@ export default function Home(): JSX.Element {
                 </p>
               </li>
             </ul>
-            <blockquote className={styles.quotation}>
-              <div>
-                <p>
-                  Resoto is useful &hellip; for <strong>ad-hoc queries</strong>{' '}
-                  and for the ability to extend it to{' '}
-                  <strong>answer questions</strong> that we can&rsquo;t
-                  currently answer.
-                </p>
-                <footer>
-                  <strong>Tai Dickerson</strong>, Production Engineering at{' '}
-                  <a
-                    href="https://shopify.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Shopify
-                  </a>
-                </footer>
-              </div>
-            </blockquote>
+            {/*<blockquote className={styles.quotation}>*/}
+            {/*  <div>*/}
+            {/*    <p>*/}
+            {/*      Resoto is useful &hellip; for <strong>ad-hoc queries</strong>{' '}*/}
+            {/*      and for the ability to extend it to{' '}*/}
+            {/*      <strong>answer questions</strong> that we can&rsquo;t*/}
+            {/*      currently answer.*/}
+            {/*    </p>*/}
+            {/*    <footer>*/}
+            {/*      <strong>Tai Dickerson</strong>, Production Engineering at{' '}*/}
+            {/*      <a*/}
+            {/*        href="https://shopify.com"*/}
+            {/*        target="_blank"*/}
+            {/*        rel="noopener noreferrer"*/}
+            {/*      >*/}
+            {/*        Shopify*/}
+            {/*      </a>*/}
+            {/*    </footer>*/}
+            {/*  </div>*/}
+            {/*</blockquote>*/}
           </div>
         </section>
         <section className={clsx(styles.section, styles.sectionAlt)}>
@@ -444,25 +446,25 @@ export default function Home(): JSX.Element {
                 </p>
               </li>
             </ul>
-            <blockquote className={styles.quotation}>
-              <div>
-                <p>
-                  I installed Resoto. <strong>Super cool CLI experience</strong>
-                  , and I love the <strong>app configuration</strong>&mdash;much
-                  better than YAML hunting.
-                </p>
-                <footer>
-                  <strong>Justyn Roberts</strong>, Solutions Engineering at{' '}
-                  <a
-                    href="https://pagerduty.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    PagerDuty
-                  </a>
-                </footer>
-              </div>
-            </blockquote>
+            {/*<blockquote className={styles.quotation}>*/}
+            {/*  <div>*/}
+            {/*    <p>*/}
+            {/*      I installed Resoto. <strong>Super cool CLI experience</strong>*/}
+            {/*      , and I love the <strong>app configuration</strong>&mdash;much*/}
+            {/*      better than YAML hunting.*/}
+            {/*    </p>*/}
+            {/*    <footer>*/}
+            {/*      <strong>Justyn Roberts</strong>, Solutions Engineering at{' '}*/}
+            {/*      <a*/}
+            {/*        href="https://pagerduty.com"*/}
+            {/*        target="_blank"*/}
+            {/*        rel="noopener noreferrer"*/}
+            {/*      >*/}
+            {/*        PagerDuty*/}
+            {/*      </a>*/}
+            {/*    </footer>*/}
+            {/*  </div>*/}
+            {/*</blockquote>*/}
           </div>
         </section>
         <section className={styles.section}>
