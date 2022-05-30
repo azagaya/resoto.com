@@ -356,7 +356,7 @@ Once one or more cloud providers have been configured the `collect_and_cleanup` 
 
 By default Resoto collects all cloud providers once per hour. This setting can be changed in the `resoto.core` config using [standard cron syntax](https://en.wikipedia.org/wiki/Cron).
 
-```yml
+```yaml
 resotocore:
 [...]
   # Workflow related properties.
